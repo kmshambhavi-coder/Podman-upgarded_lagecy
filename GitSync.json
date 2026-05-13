@@ -9,7 +9,8 @@
             "AV_HBGR": "Readme"
         },
         "Playbook": {
-            "test playbook": "addon"
+            "test playbook": "addon",
+            "test playbook changed": "addon"
         },
         "Connector": {
             "Crowdstrike - Alerts Connector": "Readme"
