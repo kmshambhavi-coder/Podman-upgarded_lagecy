@@ -34,4 +34,4 @@ Your all-in-one media management solution: store, search, and collaborate on pho
 ### Involved Blocks
 |Name|Description|
 |----|-----------|
-|New Block|An embedded workflow that can receive inputs and return an output.|
+|update New Block|updated block An embedded workflow that can receive inputs and return an output.|
