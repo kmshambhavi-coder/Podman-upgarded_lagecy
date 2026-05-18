@@ -1,5 +1,5 @@
-# first folder block
-update An embedded workflow that can receive inputs and return an output.
+# ertyuuuuuuPlaybook
+
 
 
 
@@ -7,16 +7,22 @@ update An embedded workflow that can receive inputs and return an output.
 
 **Version:** 1
 
-**Type:** Block
+**Type:** Playbook
 
 **Priority:** 2
 
 **Playbook Simulator:** False
 
 
-##### Input Parameters
-|Name|Default Value|
-|----|-------------|
+### Playbook Trigger
+**Trigger Type:** All
+
+**Conditions Operator:** And
+
+##### Conditions
+|Key|Operator|Value|
+|---|--------|-----|
+||Equals||
 
 
 ### Involved Steps (Unordered)
