@@ -10,6 +10,7 @@
 |Name|Description|
 |----|-----------|
 |first default folder block|An embedded workflow that can receive inputs and return an output.|
+|first folder block|update An embedded workflow that can receive inputs and return an output.|
 |New folder Playbook|Test description|
 
 
