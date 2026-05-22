@@ -6,7 +6,10 @@
             "GoogleChronicle": "Mapping readme"
         },
         "Visual Family": {},
-        "Playbook": {},
+        "Playbook": {
+            "New Playbook": "Test Playbook",
+            "New Block": "Test Playbook"
+        },
         "Connector": {
             "25AirTable Connector": "Connector readme updated",
             "26AlienVault USM Anywhere Connector": "Connector readme",
