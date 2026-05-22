@@ -26,17 +26,6 @@
             "modificationTimeUnixTimeInMs": 0
         },
         {
-            "mandatory": true,
-            "advanced": false,
-            "type": "String",
-            "mode": "Script",
-            "description": "Each Base can include multiple tables. The parameter indicates the name of the table within the base.",
-            "displayName": "Table name",
-            "value": "<table_name>",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
             "mandatory": false,
             "advanced": false,
             "type": "String",
@@ -112,11 +101,22 @@
             "value": "300",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": true,
+            "advanced": false,
+            "type": "String",
+            "mode": "Script",
+            "description": "Each Base can include multiple tables. The parameter indicates the name of the table within the base.",
+            "displayName": "Table name",
+            "value": "<table_name>",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
         }
     ],
     "status": 1,
     "updateAvailable": false,
-    "enabled": false,
+    "enabled": true,
     "environment": "Default Environment",
     "displayName": "25AirTable Connector",
     "description": "The Connector ingests records from a given table in Airtable",
@@ -138,17 +138,6 @@
             "modificationTimeUnixTimeInMs": 0
         },
         {
-            "mandatory": true,
-            "advanced": false,
-            "type": "String",
-            "mode": "Script",
-            "description": "Each Base can include multiple tables. The parameter indicates the name of the table within the base.",
-            "displayName": "Table name",
-            "value": "<table_name>",
-            "creationTimeUnixTimeInMs": 0,
-            "modificationTimeUnixTimeInMs": 0
-        },
-        {
             "mandatory": false,
             "advanced": false,
             "type": "String",
@@ -222,6 +211,17 @@
             "description": "The maximum rows in the table that will be affected by the action",
             "displayName": "Max records",
             "value": "300",
+            "creationTimeUnixTimeInMs": 0,
+            "modificationTimeUnixTimeInMs": 0
+        },
+        {
+            "mandatory": true,
+            "advanced": false,
+            "type": "String",
+            "mode": "Script",
+            "description": "Each Base can include multiple tables. The parameter indicates the name of the table within the base.",
+            "displayName": "Table name",
+            "value": "<table_name>",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         }

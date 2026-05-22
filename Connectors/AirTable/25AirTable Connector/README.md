@@ -13,7 +13,6 @@ Event Name Field: <none>
 |Name|Description|Is Mandatory|Value|
 |----|-----------|------------|-----|
 |Alert name prefix|The alert name prefix|False|<alert_name_prefix>|
-|Table name|Each Base can include multiple tables. The parameter indicates the name of the table within the base.|True|<table_name>|
 |Alert name field|Determines the Alert name based on the airtable column name defined in the parameter|False|<alert_name_field>|
 |Alert type|Determines the Alert type based on the airtable column name defined in the parameter|True|<alert_type>|
 |Api key|Your API Key can be found in your account overview under API|True|*****|
@@ -21,6 +20,7 @@ Event Name Field: <none>
 |Field name|The field name that you would like to search the value by|False|<field_name>|
 |Field value|The value that you would like to search for under the relevant field name|False|<field_value>|
 |Max records|The maximum rows in the table that will be affected by the action|True|300|
+|Table name|Each Base can include multiple tables. The parameter indicates the name of the table within the base.|True|<table_name>|
 
 
 Connector readme
