@@ -28,6 +28,7 @@
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
+|25AirTable Connector|The Connector ingests records from a given table in Airtable|False|
 |17Microsoft Azure Sentinel Incident Connector|DEPRECATED! Fetches Incidents from Azure Sentinel.|True|
 
 
