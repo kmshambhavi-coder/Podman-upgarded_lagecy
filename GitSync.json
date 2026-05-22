@@ -2,7 +2,9 @@
     "system_version": "6.1.6.171",
     "readme_addons": {
         "Integration": {},
-        "Mappings": {},
+        "Mappings": {
+            "GoogleChronicle": "Mapping readme"
+        },
         "Visual Family": {},
         "Playbook": {},
         "Connector": {
