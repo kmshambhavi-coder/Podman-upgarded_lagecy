@@ -8,7 +8,8 @@
         "Connector": {
             "25AirTable Connector": "Connector readme",
             "26AlienVault USM Anywhere Connector": "Connector readme",
-            "16Amazon Macie - Findings Connector": "Connector readme"
+            "16Amazon Macie - Findings Connector": "Connector readme",
+            "17Microsoft Azure Sentinel Incident Connector": "Connector readme updated"
         },
         "Job": {},
         "Block": {}
