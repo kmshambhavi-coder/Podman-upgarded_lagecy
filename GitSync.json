@@ -5,7 +5,9 @@
         "Mappings": {},
         "Visual Family": {},
         "Playbook": {},
-        "Connector": {},
+        "Connector": {
+            "25AirTable Connector": "Connector readme"
+        },
         "Job": {},
         "Block": {}
     },
