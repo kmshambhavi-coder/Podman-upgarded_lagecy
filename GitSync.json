@@ -6,7 +6,9 @@
         "Visual Family": {},
         "Playbook": {},
         "Connector": {
-            "25AirTable Connector": "Connector readme"
+            "25AirTable Connector": "Connector readme",
+            "26AlienVault USM Anywhere Connector": "Connector readme",
+            "16Amazon Macie - Findings Connector": "Connector readme"
         },
         "Job": {},
         "Block": {}

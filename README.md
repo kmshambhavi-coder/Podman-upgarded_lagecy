@@ -29,6 +29,8 @@
 |Name|Description|Has Mappings|
 |----|-----------|------------|
 |25AirTable Connector|The Connector ingests records from a given table in Airtable|False|
+|26AlienVault USM Anywhere Connector|AlienVault USM Anywhere Connector|True|
+|16Amazon Macie - Findings Connector|Pull findings from Amazon Macie. Note: Whitelist works with Finding types, for example, SensitiveData:S3Object/Personal.|True|
 
 
 ## Jobs
