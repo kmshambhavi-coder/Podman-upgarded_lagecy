@@ -4,7 +4,7 @@ The Connector ingests records from a given table in Airtable
 
 Integration: AirTable
 
-Integration Version: 16
+Integration Version: 16.0
 
 Device Product Field: <none>
 
@@ -20,6 +20,7 @@ Event Name Field: <none>
 |Field name|The field name that you would like to search the value by|False|<field_name>|
 |Field value|The value that you would like to search for under the relevant field name|False|<field_value>|
 |Max records|The maximum rows in the table that will be affected by the action|True|300|
+|Script Timeout (Seconds)|The timeout limit (in seconds) for the python process running current script|True|30|
 |Table name|Each Base can include multiple tables. The parameter indicates the name of the table within the base.|True|<table_name>|
 
 

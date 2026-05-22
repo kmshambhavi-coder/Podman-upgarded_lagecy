@@ -9,7 +9,8 @@
             "25AirTable Connector": "Connector readme updated",
             "26AlienVault USM Anywhere Connector": "Connector readme",
             "16Amazon Macie - Findings Connector": "Connector readme",
-            "17Microsoft Azure Sentinel Incident Connector": "Connector readme updated"
+            "17Microsoft Azure Sentinel Incident Connector": "Connector readme updated",
+            "13Google Chronicle - Chronicle Alerts Connector": "Connector readme updated"
         },
         "Job": {},
         "Block": {}

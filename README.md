@@ -29,6 +29,7 @@
 |Name|Description|Has Mappings|
 |----|-----------|------------|
 |25AirTable Connector|The Connector ingests records from a given table in Airtable|False|
+|13Google Chronicle - Chronicle Alerts Connector|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|True|
 |17Microsoft Azure Sentinel Incident Connector|DEPRECATED! Fetches Incidents from Azure Sentinel.|True|
 
 
