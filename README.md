@@ -98,8 +98,8 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
-|New Block|An embedded workflow that can receive inputs and return an output.|
-|New Playbook||
+|Default Block|An embedded workflow that can receive inputs and return an output.|
+|Default Playbook|Test Description default playbook|
 
 
 ## Jobs
