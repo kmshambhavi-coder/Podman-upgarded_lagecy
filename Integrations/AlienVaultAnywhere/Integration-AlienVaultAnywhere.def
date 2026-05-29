@@ -73,9 +73,9 @@
     ],
     "IntegrationSupportedActions": [
         {
-            "Name": "Get Alarm Details",
-            "Description": "Retrieve details for an alarm by ID",
-            "Id": 158,
+            "Name": "Ping",
+            "Description": "Test connectivity",
+            "Id": 156,
             "CreationTimeUnixTimeInMs": 1780056154213,
             "ModificationTimeUnixTimeInMs": 1780056154213
         },
@@ -87,9 +87,9 @@
             "ModificationTimeUnixTimeInMs": 1780056154213
         },
         {
-            "Name": "Ping",
-            "Description": "Test connectivity",
-            "Id": 156,
+            "Name": "Get Alarm Details",
+            "Description": "Retrieve details for an alarm by ID",
+            "Id": 158,
             "CreationTimeUnixTimeInMs": 1780056154213,
             "ModificationTimeUnixTimeInMs": 1780056154213
         }

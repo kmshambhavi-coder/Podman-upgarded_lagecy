@@ -61,16 +61,9 @@
     ],
     "IntegrationSupportedActions": [
         {
-            "Name": "DecodeURL",
-            "Description": "Decode URLs in Proofpoint TAP. Supported entities: URL.",
-            "Id": 155,
-            "CreationTimeUnixTimeInMs": 1780055860170,
-            "ModificationTimeUnixTimeInMs": 1780055860170
-        },
-        {
-            "Name": "Get Threat Forensics",
-            "Description": "Use the Get Threat Forensics action to return forensics associated with a threat in Proofpoint TAP.",
-            "Id": 153,
+            "Name": "Search Events",
+            "Description": "Use the Search Events action to search events in Proofpoint TAP.",
+            "Id": 150,
             "CreationTimeUnixTimeInMs": 1780055860170,
             "ModificationTimeUnixTimeInMs": 1780055860170
         },
@@ -89,6 +82,13 @@
             "ModificationTimeUnixTimeInMs": 1780055860170
         },
         {
+            "Name": "Get Threat Forensics",
+            "Description": "Use the Get Threat Forensics action to return forensics associated with a threat in Proofpoint TAP.",
+            "Id": 153,
+            "CreationTimeUnixTimeInMs": 1780055860170,
+            "ModificationTimeUnixTimeInMs": 1780055860170
+        },
+        {
             "Name": "Ping",
             "Description": "Test connectivity to the Proofpoint TAP with parameters provided at the integration configuration page on the Marketplace tab.",
             "Id": 154,
@@ -96,9 +96,9 @@
             "ModificationTimeUnixTimeInMs": 1780055860170
         },
         {
-            "Name": "Search Events",
-            "Description": "Use the Search Events action to search events in Proofpoint TAP.",
-            "Id": 150,
+            "Name": "DecodeURL",
+            "Description": "Decode URLs in Proofpoint TAP. Supported entities: URL.",
+            "Id": 155,
             "CreationTimeUnixTimeInMs": 1780055860170,
             "ModificationTimeUnixTimeInMs": 1780055860170
         }
