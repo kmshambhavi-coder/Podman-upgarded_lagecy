@@ -59,7 +59,8 @@
             "GoogleBigQuery": "A paragraph is a distinct section of writing that focuses on a single controlling idea or topic. It typically consists of a topic sentence, supporting details, and a concluding sentence."
         },
         "Mappings": {
-            "GoogleChronicle": "Mapping readme"
+            "GoogleChronicle": "Mapping readme",
+            "Exchange": "Addon"
         },
         "Visual Family": {},
         "Playbook": {
