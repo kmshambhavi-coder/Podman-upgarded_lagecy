@@ -87,7 +87,8 @@
             "Google Chronicle - Chronicle Alerts Connector": "Connector readme updated"
         },
         "Job": {
-            "Google Chronicle Alerts Creator Job": "readme"
+            "Google Chronicle Alerts Creator Job": "readme",
+            "CA Close Ticket In CA For Closed Case": "readme"
         },
         "Block": {}
     },
