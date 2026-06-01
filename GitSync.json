@@ -86,7 +86,9 @@
             "13Google Chronicle - Chronicle Alerts Connector": "Connector readme updated",
             "Google Chronicle - Chronicle Alerts Connector": "Connector readme updated"
         },
-        "Job": {},
+        "Job": {
+            "Google Chronicle Alerts Creator Job": "readme"
+        },
         "Block": {}
     },
     "settings": {
