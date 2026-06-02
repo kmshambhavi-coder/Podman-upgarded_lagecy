@@ -1,5 +1,5 @@
 {
-    "system_version": "6.1.6.171",
+    "system_version": "6.1.6.173",
     "readme_addons": {
         "Integration": {
             "CrowdStrikeFalcon": "A paragraph is a distinct section of writing that focuses on a single controlling idea or topic. It typically consists of a topic sentence, supporting details, and a concluding sentence.",
@@ -60,7 +60,8 @@
         },
         "Mappings": {
             "GoogleChronicle": "Mapping readme",
-            "Exchange": "Addon"
+            "Exchange": "Addon",
+            "MicrosoftAzureSentinel": "Readme mappings"
         },
         "Visual Family": {},
         "Playbook": {
