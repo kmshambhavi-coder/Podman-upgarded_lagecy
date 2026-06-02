@@ -132,8 +132,8 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
-|Bug palybook||
-|Cybersixgill Actionable Alerts|Creates Insights for Each Alert|
+|New Block|An embedded workflow that can receive inputs and return an output.|
+|New Playbook|test|
 
 
 ## Jobs
