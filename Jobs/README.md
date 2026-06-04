@@ -311,6 +311,19 @@ Token renewal job should be used to periodically update the refresh token config
 |Connector Names|String|False|ds|
 
 
+Readme text## projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/AzureSecurityCenter/jobs/84/jobInstances/66
+Token renewal job should be used to periodically update the refresh token configured for the integration. By default, the refresh token expires every 90 days, making integration unusable upon expiration. It is recommended to run this job every 7 or 14 days to make sure that refresh token will be up to date.
+
+
+**Run Interval In Seconds:** None
+
+#### Parameters
+|Name|Type|Is Mandatory|Value|
+|----|----|------------|-----|
+|Integration Environments|String|False||
+|Connector Names|String|False||
+
+
 Readme text## projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/MicrosoftGraphMailDelegated/jobs/96/jobInstances/49
 Token renewal job should be used to periodically update the refresh token configured for the integration. By default, the refresh token expires every 90 days, making integration unusable upon expiration. It is recommended to run this job every 7 or 14 days to make sure that refresh token will be up to date.
 
