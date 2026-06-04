@@ -138,7 +138,9 @@
             "projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/ServiceNow/jobs/103/jobInstances/15": "Readme text",
             "projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/Tools/jobs/105/jobInstances/12": "Readme text",
             "projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/Tools/jobs/106/jobInstances/11": "Readme text",
-            "projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/ServiceNow/jobs/104/jobInstances/7": "Readme text"
+            "projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/ServiceNow/jobs/104/jobInstances/7": "Readme text",
+            "projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/Microsoft365Defender/jobs/93/jobInstances/65": "Readme text",
+            "projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/Microsoft365Defender/jobs/93/jobInstances/64": "Readme text"
         },
         "Block": {}
     },
