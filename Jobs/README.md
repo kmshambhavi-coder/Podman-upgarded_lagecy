@@ -133,25 +133,25 @@ Sync closure of the tickets at the CA Desk Manager with Siemplify cases closure.
 |Script Name|String|False|TEST CLOSE|
 
 
-Readme text## projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/CaServiceDesk/jobs/87/jobInstances/23
+Readme text## CA Close Ticket In CA For Closed Case
 Sync closure of the tickets at the CA Desk Manager with Siemplify cases closure.
 
 
-**Run Interval In Seconds:** None
+**Run Interval In Seconds:** 7200
 
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|API Root|String|False|http://x.x.x.x:<port>|
-|Username|String|False|dfghj|
-|Password|String|False|dfgvhbn|
+|API Root|String|True|http://x.x.x.x:<port>|
+|Username|String|True|sfdghh|
+|Password|String|True|dfgv|
 |Group Filter|String|False|Test|
-|Group Field|String|False|group.combo_name|
-|Ticket Final Status|String|False|Closed|
-|Script Name|String|False|TEST CLOSE|
+|Group Field|String|True|group.combo_name|
+|Ticket Final Status|String|True|Closed|
+|Script Name|String|True|TEST CLOSE|
 
 
-Readme text## projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/CaseFederation/jobs/42/jobInstances/24
+readme## projects/spsstg-ck6l5/locations/us/instances/96356bda-a057-49d1-9692-34b4b2c9c3f6/integrations/CaseFederation/jobs/42/jobInstances/24
 This job will sync case metadata to an external platform for central management.
 
 
