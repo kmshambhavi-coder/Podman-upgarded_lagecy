@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "eb7fd9e0-ae5d-4710-b376-6273cad9d0c3",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for TrendMicroDDAN - SubmitFile - d9edf1",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking TrendMicroDDAN > SubmitFile",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "eb7fd9e0-ae5d-4710-b376-6273cad9d0c3",
+    "creationTimeUnixTimeInMs": 1781083175867,
+    "modificationTimeUnixTimeInMs": 1781083175867,
+    "trigger": {
+        "id": 0,
+        "identifier": "f1ca579c-9b42-4727-9129-76737491b854",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "28034649-5df1-437e-8491-0f64d4a0b73a",
+            "originalStepIdentifier": "28034649-5df1-437e-8491-0f64d4a0b73a",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "SubmitFile_1",
+            "name": "Run SubmitFile",
+            "integration": "TrendMicroDDAN",
+            "description": "This step invokes SubmitFile",
+            "actionProvider": "TrendMicroDDAN",
+            "actionName": "SubmitFile",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "eb7fd9e0-ae5d-4710-b376-6273cad9d0c3",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083175867,
+            "modificationTimeUnixTimeInMs": 1781083175867,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

@@ -1,0 +1,178 @@
+{
+    "id": 0,
+    "identifier": "24951b6c-efd1-4263-9566-f65612b61a82",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for Phishrod - Ping - 673ecd",
+    "creator": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking Phishrod > Ping",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "24951b6c-efd1-4263-9566-f65612b61a82",
+    "creationTimeUnixTimeInMs": 1781083274738,
+    "modificationTimeUnixTimeInMs": 1781083304163,
+    "trigger": {
+        "id": 0,
+        "identifier": "dc66708c-4a23-4f23-9495-11aaf792056c",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "92e9e1f8-10b7-4c90-b633-0fcf83b2713b",
+            "originalStepIdentifier": "92e9e1f8-10b7-4c90-b633-0fcf83b2713b",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Nested_Block_c010",
+            "name": "Nested Block Step",
+            "integration": "",
+            "description": "Invokes the shared enhancement block",
+            "actionProvider": "Block",
+            "actionName": "Block",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "NestedWorkflowIdentifier",
+                    "value": "899d1d80-c641-48db-a0c9-5ae975b9e857",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "24951b6c-efd1-4263-9566-f65612b61a82",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083304163,
+            "modificationTimeUnixTimeInMs": 1781083304163,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "c16a9a8e-dd5e-46a4-ab06-a066e079281f",
+            "originalStepIdentifier": "c16a9a8e-dd5e-46a4-ab06-a066e079281f",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "CaseTag_c086",
+            "name": "Add Case Tag",
+            "integration": "Siemplify",
+            "description": "Appends a dynamic tag to the case.",
+            "actionProvider": "Siemplify",
+            "actionName": "CaseTag",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "Tag",
+                    "value": "tag 4",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "24951b6c-efd1-4263-9566-f65612b61a82",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083304163,
+            "modificationTimeUnixTimeInMs": 1781083304163,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "e72487ce-d84e-4d61-afa6-745609623fd0",
+            "originalStepIdentifier": "e72487ce-d84e-4d61-afa6-745609623fd0",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Ping_1",
+            "name": "Run Ping",
+            "integration": "Phishrod",
+            "description": "This step invokes Ping",
+            "actionProvider": "Phishrod",
+            "actionName": "Ping",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "24951b6c-efd1-4263-9566-f65612b61a82",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083303987,
+            "modificationTimeUnixTimeInMs": 1781083304163,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [
+        {
+            "condition": "",
+            "fromStep": "e72487ce-d84e-4d61-afa6-745609623fd0",
+            "toStep": "92e9e1f8-10b7-4c90-b633-0fcf83b2713b",
+            "destinationActionStatus": 0
+        },
+        {
+            "condition": "",
+            "fromStep": "92e9e1f8-10b7-4c90-b633-0fcf83b2713b",
+            "toStep": "c16a9a8e-dd5e-46a4-ab06-a066e079281f",
+            "destinationActionStatus": 0
+        }
+    ],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [
+        {
+            "id": 185,
+            "identifier": "7fc9488b-e76f-48da-9b3b-efbc42640625",
+            "name": "Enhancement Overview",
+            "creator": "admin",
+            "playbookIdentifier": "24951b6c-efd1-4263-9566-f65612b61a82",
+            "type": 1,
+            "widgets": [],
+            "roles": [
+                1,
+                2
+            ],
+            "creationTimeUnixTimeInMs": 1781083304163
+        }
+    ],
+    "creationSource": 1
+}

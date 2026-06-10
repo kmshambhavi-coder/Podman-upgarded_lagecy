@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "c02877cc-ea0c-4892-950f-673a879bc61a",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for McAfeeMvisionEDRV2 - CreateInvestigation - 2e4a79",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking McAfeeMvisionEDRV2 > CreateInvestigation",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "c02877cc-ea0c-4892-950f-673a879bc61a",
+    "creationTimeUnixTimeInMs": 1781083230904,
+    "modificationTimeUnixTimeInMs": 1781083230904,
+    "trigger": {
+        "id": 0,
+        "identifier": "d834a9e5-8ec6-4912-b2ac-943a343a11cf",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "3444b571-6ff0-455d-a3b7-79731ae89a04",
+            "originalStepIdentifier": "3444b571-6ff0-455d-a3b7-79731ae89a04",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "CreateInvestigation_1",
+            "name": "Run CreateInvestigation",
+            "integration": "McAfeeMvisionEDRV2",
+            "description": "This step invokes CreateInvestigation",
+            "actionProvider": "McAfeeMvisionEDRV2",
+            "actionName": "CreateInvestigation",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "c02877cc-ea0c-4892-950f-673a879bc61a",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083230904,
+            "modificationTimeUnixTimeInMs": 1781083230904,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

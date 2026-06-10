@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "3cf5f58b-6817-4196-bbbc-fe9c7de4fc15",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for SonicWall-Beta - ListURILists - ec3a78",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking SonicWall-Beta > ListURILists",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "3cf5f58b-6817-4196-bbbc-fe9c7de4fc15",
+    "creationTimeUnixTimeInMs": 1781083223088,
+    "modificationTimeUnixTimeInMs": 1781083223088,
+    "trigger": {
+        "id": 0,
+        "identifier": "ca3b38fb-eb46-435c-a347-9e4a6b48d8ff",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "9c93f483-f4d9-420c-b043-6f4b164e4520",
+            "originalStepIdentifier": "9c93f483-f4d9-420c-b043-6f4b164e4520",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "ListURILists_1",
+            "name": "Run ListURILists",
+            "integration": "SonicWall-Beta",
+            "description": "This step invokes ListURILists",
+            "actionProvider": "SonicWall-Beta",
+            "actionName": "ListURILists",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "3cf5f58b-6817-4196-bbbc-fe9c7de4fc15",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083223088,
+            "modificationTimeUnixTimeInMs": 1781083223088,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

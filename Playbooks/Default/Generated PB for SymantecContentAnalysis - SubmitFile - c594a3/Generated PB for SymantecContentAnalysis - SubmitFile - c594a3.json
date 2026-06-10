@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "9c503032-926b-4806-bed4-4d179cc4c321",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for SymantecContentAnalysis - SubmitFile - c594a3",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking SymantecContentAnalysis > SubmitFile",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "9c503032-926b-4806-bed4-4d179cc4c321",
+    "creationTimeUnixTimeInMs": 1781083172409,
+    "modificationTimeUnixTimeInMs": 1781083172409,
+    "trigger": {
+        "id": 0,
+        "identifier": "1dbc717c-7ce5-40fa-bacd-e48fc1eb0e60",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "73f962df-0ec4-4438-a756-2aa061f75752",
+            "originalStepIdentifier": "73f962df-0ec4-4438-a756-2aa061f75752",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "SubmitFile_1",
+            "name": "Run SubmitFile",
+            "integration": "SymantecContentAnalysis",
+            "description": "This step invokes SubmitFile",
+            "actionProvider": "SymantecContentAnalysis",
+            "actionName": "SubmitFile",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "9c503032-926b-4806-bed4-4d179cc4c321",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083172409,
+            "modificationTimeUnixTimeInMs": 1781083172409,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

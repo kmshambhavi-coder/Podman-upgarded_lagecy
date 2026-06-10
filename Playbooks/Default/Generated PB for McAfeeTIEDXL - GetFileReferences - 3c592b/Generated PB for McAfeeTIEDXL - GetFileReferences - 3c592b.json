@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "784818f1-155f-4176-9e7a-38fb9aba939c",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for McAfeeTIEDXL - GetFileReferences - 3c592b",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking McAfeeTIEDXL > GetFileReferences",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "784818f1-155f-4176-9e7a-38fb9aba939c",
+    "creationTimeUnixTimeInMs": 1781083138869,
+    "modificationTimeUnixTimeInMs": 1781083138869,
+    "trigger": {
+        "id": 0,
+        "identifier": "8933a977-c46e-438f-9ae1-cbf8958f1113",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "de55c2a6-d298-4fc8-a6d9-d6535c756300",
+            "originalStepIdentifier": "de55c2a6-d298-4fc8-a6d9-d6535c756300",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "GetFileReferences_1",
+            "name": "Run GetFileReferences",
+            "integration": "McAfeeTIEDXL",
+            "description": "This step invokes GetFileReferences",
+            "actionProvider": "McAfeeTIEDXL",
+            "actionName": "GetFileReferences",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "784818f1-155f-4176-9e7a-38fb9aba939c",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083138869,
+            "modificationTimeUnixTimeInMs": 1781083138869,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "f3add8ef-8484-4959-8aad-4c3039756634",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for ElasticSearch - AdvancedESSearch - 88084d",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking ElasticSearch > AdvancedESSearch",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "f3add8ef-8484-4959-8aad-4c3039756634",
+    "creationTimeUnixTimeInMs": 1781083174583,
+    "modificationTimeUnixTimeInMs": 1781083174583,
+    "trigger": {
+        "id": 0,
+        "identifier": "805b8ad9-9fc3-4f0f-939e-dbbbea5a4e82",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "7c5e8e6a-cc87-48b6-b481-484d4a3d1eb7",
+            "originalStepIdentifier": "7c5e8e6a-cc87-48b6-b481-484d4a3d1eb7",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "AdvancedESSearch_1",
+            "name": "Run AdvancedESSearch",
+            "integration": "ElasticSearch",
+            "description": "This step invokes AdvancedESSearch",
+            "actionProvider": "ElasticSearch",
+            "actionName": "AdvancedESSearch",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "f3add8ef-8484-4959-8aad-4c3039756634",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083174583,
+            "modificationTimeUnixTimeInMs": 1781083174583,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

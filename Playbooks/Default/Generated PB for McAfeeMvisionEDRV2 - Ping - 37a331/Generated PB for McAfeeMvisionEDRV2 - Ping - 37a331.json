@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "97189ae5-c49e-4fa1-a1d0-577a1efddc51",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for McAfeeMvisionEDRV2 - Ping - 37a331",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking McAfeeMvisionEDRV2 > Ping",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "97189ae5-c49e-4fa1-a1d0-577a1efddc51",
+    "creationTimeUnixTimeInMs": 1781083230700,
+    "modificationTimeUnixTimeInMs": 1781083230700,
+    "trigger": {
+        "id": 0,
+        "identifier": "c16f1f8c-8420-4bc9-a8c5-005bea9c7ca0",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "b83c12c3-37c2-4c3a-8267-f37acbe4f11e",
+            "originalStepIdentifier": "b83c12c3-37c2-4c3a-8267-f37acbe4f11e",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Ping_1",
+            "name": "Run Ping",
+            "integration": "McAfeeMvisionEDRV2",
+            "description": "This step invokes Ping",
+            "actionProvider": "McAfeeMvisionEDRV2",
+            "actionName": "Ping",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "97189ae5-c49e-4fa1-a1d0-577a1efddc51",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083230700,
+            "modificationTimeUnixTimeInMs": 1781083230700,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}
