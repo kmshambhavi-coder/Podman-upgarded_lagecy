@@ -125,6 +125,7 @@
 |Generated PB for Wildfire - GetFile - 8cb44d|Auto-generated playbook invoking Wildfire > GetFile|
 |Generated PB for Wildfire - GetPcap - e83b0f|Auto-generated playbook invoking Wildfire > GetPcap|
 |New Block|An embedded workflow that can receive inputs and return an output.|
+|New Block 23456|An embedded workflow that can receive inputs and return an output.|
 |Widget Playbook|Auto-generated playbook invoking Area1 > GetRecentIndicators|
 
 
