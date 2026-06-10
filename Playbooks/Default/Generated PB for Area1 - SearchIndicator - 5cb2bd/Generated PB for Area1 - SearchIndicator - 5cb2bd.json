@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "a25778ac-46e4-498f-8e46-8ab907b873b5",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for Area1 - SearchIndicator - 5cb2bd",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking Area1 > SearchIndicator",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "a25778ac-46e4-498f-8e46-8ab907b873b5",
+    "creationTimeUnixTimeInMs": 1781083247348,
+    "modificationTimeUnixTimeInMs": 1781083247348,
+    "trigger": {
+        "id": 0,
+        "identifier": "586c77aa-cf42-4dad-9c09-b03ae3e8abf4",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "f197b081-be70-48c7-8858-9529ceb21685",
+            "originalStepIdentifier": "f197b081-be70-48c7-8858-9529ceb21685",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "SearchIndicator_1",
+            "name": "Run SearchIndicator",
+            "integration": "Area1",
+            "description": "This step invokes SearchIndicator",
+            "actionProvider": "Area1",
+            "actionName": "SearchIndicator",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "a25778ac-46e4-498f-8e46-8ab907b873b5",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083247348,
+            "modificationTimeUnixTimeInMs": 1781083247348,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

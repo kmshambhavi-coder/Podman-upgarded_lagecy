@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "5c7fad43-7265-4fe6-9d9d-e7e8e7c9dcaf",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for TrendMicroApexCentral - CreateEntityUDSO - 82bf9f",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking TrendMicroApexCentral > CreateEntityUDSO",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "5c7fad43-7265-4fe6-9d9d-e7e8e7c9dcaf",
+    "creationTimeUnixTimeInMs": 1781083290958,
+    "modificationTimeUnixTimeInMs": 1781083290958,
+    "trigger": {
+        "id": 0,
+        "identifier": "b1efc9df-5dea-46fe-a631-3ccfac1f14ee",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "53b5f56a-1d45-4220-b6f9-b12df034ab89",
+            "originalStepIdentifier": "53b5f56a-1d45-4220-b6f9-b12df034ab89",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "CreateEntityUDSO_1",
+            "name": "Run CreateEntityUDSO",
+            "integration": "TrendMicroApexCentral",
+            "description": "This step invokes CreateEntityUDSO",
+            "actionProvider": "TrendMicroApexCentral",
+            "actionName": "CreateEntityUDSO",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "5c7fad43-7265-4fe6-9d9d-e7e8e7c9dcaf",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083290958,
+            "modificationTimeUnixTimeInMs": 1781083290958,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

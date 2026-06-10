@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "3f943e1c-9e70-40df-870f-444b63893bb8",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for FireEyeEX - DownloadAlertArtifacts - 840e27",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking FireEyeEX > DownloadAlertArtifacts",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "3f943e1c-9e70-40df-870f-444b63893bb8",
+    "creationTimeUnixTimeInMs": 1781083179087,
+    "modificationTimeUnixTimeInMs": 1781083179087,
+    "trigger": {
+        "id": 0,
+        "identifier": "ad8c7418-6bc3-41c8-aecc-ac99470e4cc1",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "e06004e4-0c8d-4f58-b895-7a15dc30d243",
+            "originalStepIdentifier": "e06004e4-0c8d-4f58-b895-7a15dc30d243",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "DownloadAlertArtifacts_1",
+            "name": "Run DownloadAlertArtifacts",
+            "integration": "FireEyeEX",
+            "description": "This step invokes DownloadAlertArtifacts",
+            "actionProvider": "FireEyeEX",
+            "actionName": "DownloadAlertArtifacts",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "3f943e1c-9e70-40df-870f-444b63893bb8",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083179087,
+            "modificationTimeUnixTimeInMs": 1781083179087,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "03088d62-442d-4d5f-97aa-10ded63ca00a",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for GoogleChronicle - AddEntryToWatchlist - 27cbea",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking GoogleChronicle > AddEntryToWatchlist",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "03088d62-442d-4d5f-97aa-10ded63ca00a",
+    "creationTimeUnixTimeInMs": 1781083206219,
+    "modificationTimeUnixTimeInMs": 1781083206219,
+    "trigger": {
+        "id": 0,
+        "identifier": "8687a844-030d-43c0-bb03-de11a0bc9f8b",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "31328154-09fe-4356-b190-e288735f80c5",
+            "originalStepIdentifier": "31328154-09fe-4356-b190-e288735f80c5",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "AddEntryToWatchlist_1",
+            "name": "Run AddEntryToWatchlist",
+            "integration": "GoogleChronicle",
+            "description": "This step invokes AddEntryToWatchlist",
+            "actionProvider": "GoogleChronicle",
+            "actionName": "AddEntryToWatchlist",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "03088d62-442d-4d5f-97aa-10ded63ca00a",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083206219,
+            "modificationTimeUnixTimeInMs": 1781083206219,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "cf16ae14-9327-4db0-b154-86ae8b60a6b0",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for Salesforce - ListCases - 194f2b",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking Salesforce > ListCases",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "cf16ae14-9327-4db0-b154-86ae8b60a6b0",
+    "creationTimeUnixTimeInMs": 1781083133598,
+    "modificationTimeUnixTimeInMs": 1781083133598,
+    "trigger": {
+        "id": 0,
+        "identifier": "6ace2d19-c483-4838-a834-fc04fc0a88e2",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "be68b8bf-1072-45f3-8959-09ae7f24b326",
+            "originalStepIdentifier": "be68b8bf-1072-45f3-8959-09ae7f24b326",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "ListCases_1",
+            "name": "Run ListCases",
+            "integration": "Salesforce",
+            "description": "This step invokes ListCases",
+            "actionProvider": "Salesforce",
+            "actionName": "ListCases",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "cf16ae14-9327-4db0-b154-86ae8b60a6b0",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083133598,
+            "modificationTimeUnixTimeInMs": 1781083133598,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

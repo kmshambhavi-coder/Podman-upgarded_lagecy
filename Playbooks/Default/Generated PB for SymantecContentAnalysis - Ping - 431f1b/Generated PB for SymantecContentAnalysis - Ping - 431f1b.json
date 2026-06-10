@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "7f8838f8-612d-4545-b250-71db52f000bd",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for SymantecContentAnalysis - Ping - 431f1b",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking SymantecContentAnalysis > Ping",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "7f8838f8-612d-4545-b250-71db52f000bd",
+    "creationTimeUnixTimeInMs": 1781083172629,
+    "modificationTimeUnixTimeInMs": 1781083172629,
+    "trigger": {
+        "id": 0,
+        "identifier": "c40ea5d5-1316-4b3e-9d4a-3ebfa8832963",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "ae876b20-41e9-4726-a320-352e01e35d65",
+            "originalStepIdentifier": "ae876b20-41e9-4726-a320-352e01e35d65",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Ping_1",
+            "name": "Run Ping",
+            "integration": "SymantecContentAnalysis",
+            "description": "This step invokes Ping",
+            "actionProvider": "SymantecContentAnalysis",
+            "actionName": "Ping",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "7f8838f8-612d-4545-b250-71db52f000bd",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083172629,
+            "modificationTimeUnixTimeInMs": 1781083172629,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

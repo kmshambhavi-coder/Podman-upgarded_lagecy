@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "51d194d0-2ce9-48bc-8737-a68da3a69b2b",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for Phishrod - MarkIncident - 1f141a",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking Phishrod > MarkIncident",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "51d194d0-2ce9-48bc-8737-a68da3a69b2b",
+    "creationTimeUnixTimeInMs": 1781083274488,
+    "modificationTimeUnixTimeInMs": 1781083274488,
+    "trigger": {
+        "id": 0,
+        "identifier": "cada3e02-95dd-4508-ba01-2571de6de9f9",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "327b3562-f00c-45a4-9754-0e503db5eda1",
+            "originalStepIdentifier": "327b3562-f00c-45a4-9754-0e503db5eda1",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "MarkIncident_1",
+            "name": "Run MarkIncident",
+            "integration": "Phishrod",
+            "description": "This step invokes MarkIncident",
+            "actionProvider": "Phishrod",
+            "actionName": "MarkIncident",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "51d194d0-2ce9-48bc-8737-a68da3a69b2b",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083274488,
+            "modificationTimeUnixTimeInMs": 1781083274488,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

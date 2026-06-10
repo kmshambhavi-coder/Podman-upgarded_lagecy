@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "5ba84387-7ae2-41bc-b501-5a6c4098c89c",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for GoogleAlertCenter - Ping - 0ff8b9",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking GoogleAlertCenter > Ping",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "5ba84387-7ae2-41bc-b501-5a6c4098c89c",
+    "creationTimeUnixTimeInMs": 1781083149468,
+    "modificationTimeUnixTimeInMs": 1781083149468,
+    "trigger": {
+        "id": 0,
+        "identifier": "99aacfe0-d9a1-4b47-878e-11d83d8f8c3a",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "f599b5e0-c8e9-4b12-b49c-053ccb0f0f7f",
+            "originalStepIdentifier": "f599b5e0-c8e9-4b12-b49c-053ccb0f0f7f",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Ping_1",
+            "name": "Run Ping",
+            "integration": "GoogleAlertCenter",
+            "description": "This step invokes Ping",
+            "actionProvider": "GoogleAlertCenter",
+            "actionName": "Ping",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "5ba84387-7ae2-41bc-b501-5a6c4098c89c",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083149468,
+            "modificationTimeUnixTimeInMs": 1781083149468,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

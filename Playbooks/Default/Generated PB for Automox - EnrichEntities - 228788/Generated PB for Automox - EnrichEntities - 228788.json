@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "ad273a04-a518-4f36-be84-c332752ac23a",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for Automox - EnrichEntities - 228788",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking Automox > EnrichEntities",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "ad273a04-a518-4f36-be84-c332752ac23a",
+    "creationTimeUnixTimeInMs": 1781083171192,
+    "modificationTimeUnixTimeInMs": 1781083171192,
+    "trigger": {
+        "id": 0,
+        "identifier": "8734038a-15e9-4d6f-995c-9545f04e07a3",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "2aaa64fb-5193-428c-9d5c-bf83908f0138",
+            "originalStepIdentifier": "2aaa64fb-5193-428c-9d5c-bf83908f0138",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "EnrichEntities_1",
+            "name": "Run EnrichEntities",
+            "integration": "Automox",
+            "description": "This step invokes EnrichEntities",
+            "actionProvider": "Automox",
+            "actionName": "EnrichEntities",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "ad273a04-a518-4f36-be84-c332752ac23a",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083171192,
+            "modificationTimeUnixTimeInMs": 1781083171192,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "26d9f213-02da-4b65-a6f1-bf29ae934699",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for MicroFocusITSMA - CreateIncident - d7a464",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking MicroFocusITSMA > CreateIncident",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "26d9f213-02da-4b65-a6f1-bf29ae934699",
+    "creationTimeUnixTimeInMs": 1781083229510,
+    "modificationTimeUnixTimeInMs": 1781083229510,
+    "trigger": {
+        "id": 0,
+        "identifier": "f6a0bded-ee87-4ee0-8e5f-77119f5952ab",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "11b79cf4-4780-4bd1-8830-1b93fc2dc89f",
+            "originalStepIdentifier": "11b79cf4-4780-4bd1-8830-1b93fc2dc89f",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "CreateIncident_1",
+            "name": "Run CreateIncident",
+            "integration": "MicroFocusITSMA",
+            "description": "This step invokes CreateIncident",
+            "actionProvider": "MicroFocusITSMA",
+            "actionName": "CreateIncident",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "26d9f213-02da-4b65-a6f1-bf29ae934699",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083229510,
+            "modificationTimeUnixTimeInMs": 1781083229510,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}

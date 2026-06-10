@@ -1,0 +1,72 @@
+{
+    "id": 0,
+    "identifier": "3422e9fa-6f87-4cb4-a0fd-622c16f92dd0",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Generated PB for McAfeeEPO - AddTag - 632c88",
+    "creator": "admin",
+    "modifiedBy": "c00a0cc4-4c54-4557-b935-4f970a5001d9",
+    "priority": 0,
+    "description": "Auto-generated playbook invoking McAfeeEPO > AddTag",
+    "executionScope": 1,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "3422e9fa-6f87-4cb4-a0fd-622c16f92dd0",
+    "creationTimeUnixTimeInMs": 1781083226491,
+    "modificationTimeUnixTimeInMs": 1781083226491,
+    "trigger": {
+        "id": 0,
+        "identifier": "bbe3aaa8-2332-46e5-a578-9f83e0f51635",
+        "type": 8,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "251419bb-a629-4423-a321-fc5ce88d53b0",
+            "originalStepIdentifier": "251419bb-a629-4423-a321-fc5ce88d53b0",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "AddTag_1",
+            "name": "Run AddTag",
+            "integration": "McAfeeEPO",
+            "description": "This step invokes AddTag",
+            "actionProvider": "McAfeeEPO",
+            "actionName": "AddTag",
+            "type": 0,
+            "parameters": [],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "3422e9fa-6f87-4cb4-a0fd-622c16f92dd0",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1781083226491,
+            "modificationTimeUnixTimeInMs": 1781083226491,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 0,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 1,
+    "defaultAccessLevel": 1,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}
