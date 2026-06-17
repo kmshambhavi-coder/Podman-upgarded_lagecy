@@ -60,6 +60,21 @@
 |4VirusTotal - Livehunt Notifications Connector|Pull information about Livehunt notifications and related files from VirusTotal. Note: this connector requires a premium API token. Dynamic list works with "rule_name" parameter.|False|
 
 
+## Playbooks
+|Name|Description|
+|----|-----------|
+|01Playbook1- block and widget||
+|02Playbook1- block and widget||
+|1Different environment||
+|7 Different environment - 2||
+|Block1|An embedded workflow that can receive inputs and return an output.|
+|Copy of 01Playbook1- block and widget||
+|Copy of Different environment||
+|Different environment||
+|Playbook1- block and widget||
+|testing single block|An embedded workflow that can receive inputs and return an output.|
+
+
 ## Visual Families
 |Name|Description|
 |----|-----------|
