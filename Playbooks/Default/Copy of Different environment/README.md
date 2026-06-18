@@ -33,3 +33,4 @@
 |Siemplify_Add Entity Insight_1|Add an insight configurable message to each targeted entity|Siemplify|Add Entity Insight|
 |GitSync_Ping_1|Test connectivity to GitSync|GitSync|Ping|
 
+Readme addon test 

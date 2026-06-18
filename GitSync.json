@@ -4,10 +4,22 @@
         "Integration": {},
         "Mappings": {},
         "Visual Family": {},
-        "Playbook": {},
+        "Playbook": {
+            "Playbook1- block and widget": "Readme addon test ",
+            "Different environment": "Readme addon test ",
+            "1Different environment": "Readme addon test ",
+            "01Playbook1- block and widget": "Readme addon test ",
+            "02Playbook1- block and widget": "Readme addon test ",
+            "Copy of 01Playbook1- block and widget": "Readme addon test ",
+            "Copy of Different environment": "Readme addon test ",
+            "7 Different environment - 2": "Readme addon test "
+        },
         "Connector": {},
         "Job": {},
-        "Block": {}
+        "Block": {
+            "Block1": "Readme addon test ",
+            "testing single block": "Readme addon test "
+        }
     },
     "settings": {
         "update_root_readme": true

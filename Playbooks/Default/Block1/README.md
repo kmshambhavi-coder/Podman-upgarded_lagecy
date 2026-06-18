@@ -29,3 +29,4 @@ An embedded workflow that can receive inputs and return an output.
 |SiemplifyUtilities_List Operations_1|Provide operations on lists.|SiemplifyUtilities|List Operations|
 |Siemplify_Case Tag_1|Add given tag to the case the current alert is grouped to|Siemplify|Case Tag|
 
+Readme addon test 
