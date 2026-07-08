@@ -9,5 +9,6 @@
 |Copy of 01Playbook1- block and widget|Default||
 |Copy of Different environment|Default||
 |Different environment|Default||
+|New Playbook|Default||
 |Playbook1- block and widget|Default||
 |testing single block|Default|An embedded workflow that can receive inputs and return an output.|

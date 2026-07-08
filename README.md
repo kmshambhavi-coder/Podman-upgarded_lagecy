@@ -74,6 +74,7 @@
 |Copy of 01Playbook1- block and widget||
 |Copy of Different environment||
 |Different environment||
+|New Playbook||
 |Playbook1- block and widget||
 |testing single block|An embedded workflow that can receive inputs and return an output.|
 
