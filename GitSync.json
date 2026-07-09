@@ -6,7 +6,10 @@
         "Visual Family": {},
         "Playbook": {},
         "Connector": {},
-        "Job": {},
+        "Job": {
+            "Google Chronicle Sync Job": "test addon",
+            "Google Chronicle Alerts Creator Job": "test addon"
+        },
         "Block": {}
     },
     "settings": {

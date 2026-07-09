@@ -1,6 +1,6 @@
 {
     "lastRunStatus": 1,
-    "lastRunTime": 1782979403238,
+    "lastRunTime": 1783590512699,
     "uniqueIdentifier": "f59ff320-8d65-460a-b73f-53074d31c28c",
     "id": 0,
     "jobDefinitionId": 0,
@@ -51,7 +51,7 @@
     ],
     "runIntervalInSeconds": 60,
     "creationTime": "2026-07-01T07:41:28.83Z",
-    "lastModificationTime": "2026-07-02T08:03:57.7Z",
+    "lastModificationTime": "2026-07-09T09:48:32.709Z",
     "isSystemJob": false,
     "jobDefinitionName": "Google Chronicle Alerts Creator Job",
     "agentIdentifier": "",
